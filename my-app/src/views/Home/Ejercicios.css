@@ -1,0 +1,20 @@
+.ejercicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    gap: 20px;
+}
+
+
+.ejercicio-container h1 {
+    font-size: 30px;
+    color: #222;
+}
+
+
+canvas {
+    border: 3px solid rgb(183, 183, 183);
+    border-radius: 10px;
+}
