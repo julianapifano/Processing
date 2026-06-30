@@ -14,12 +14,12 @@ function AppRoutes(){
             />
 
             <Route 
-                path="/ejercicio-dos"
+                path="/EjercicioDos"
                 element={<EjercicioDos />}
             />
 
             <Route 
-                path="/ejercicio-tres"
+                path="/EjercicioTres"
                 element={<EjercicioTres />}
             />
         </Routes>

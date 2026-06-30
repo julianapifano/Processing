@@ -1,5 +1,6 @@
 import React from "react";
 import Sketch from "react-p5";
+import "./Ejercicios.css";
 
 const EjercicioDos = () => {
     const setup = (p5, canvasParentRef) => {
@@ -10,15 +11,21 @@ const EjercicioDos = () => {
         p5.background(245, 235, 255);
         p5.noStroke();
 
-        // Círculo grande (300)
+        p5.fill(180, 170, 250);
+        p5.ellipse(200, 200, 600, 600);
+
+        p5.fill(150, 120, 200);
+        p5.ellipse(200, 200, 500, 500);
+
+        p5.fill(100, 100, 200);
+        p5.ellipse(200, 200, 400, 400);
+
         p5.fill(170, 115, 240);
         p5.ellipse(200, 200, 300, 300);
 
-        // Círculo mediano (200)
         p5.fill(255, 160, 190);
         p5.ellipse(200, 200, 200, 200);
 
-        // Círculo pequeño (100)
         p5.fill(255, 240, 150);
         p5.ellipse(200, 200, 100, 100);
     };

@@ -1,5 +1,6 @@
 import React from "react";
 import Sketch from "react-p5";
+import "./Ejercicios.css";
 
 const EjercicioTres = () => {
     const setup = (p5, canvasParentRef) => {
